@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WarehouseKanban.Domain.Area">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Area.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Postos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WarehouseKanban.Domain.Attachiment">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attachiment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseKanban.Domain.Centro">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQABAAAAAAAAAAAAAACAAAAEAAAAAAEAAAA=</HashCode>
+      <FileName>Centro.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Areas" />
+      <Property Name="Depositos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WarehouseKanban.Domain.Item">
+    <Position X="10.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAQABAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Attachiments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WarehouseKanban.Domain.ItemDePosto">
+    <Position X="10" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAEAAAACAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ItemDePosto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseKanban.Domain.Posto">
+    <Position X="7.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAQABEAAAAAAAAAAABAAAAAAgBAAAAAEAABA=</HashCode>
+      <FileName>Posto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Itens" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WarehouseKanban.Domain.Solicitacao">
+    <Position X="6" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IhACAAQEAQBAQgAAAAAAAAAGAAAAgAAAkAAAAAAAEAA=</HashCode>
+      <FileName>Solicitacao.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Centro" />
+      <Property Name="Posto" />
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WarehouseKanban.Domain.Warehouse" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WarehouseKanban.Domain.Deposito">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Deposito.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Postos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
